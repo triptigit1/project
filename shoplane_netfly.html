@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPLANE - A Place For Shopping</title>
+    <!-- <script src="https://kit.fontawesome.com/392a295357.js" crossorigin="anonymous"></script> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    
+    <!-- css styles  -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- slick files for styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <!-- cdn for jquery -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.2.js"
+    integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4="
+    crossorigin="anonymous"></script>  
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+
+</head>
+<body>
+
+    <!------------------------------ Top Bar ----------------------------->
+    <div id="top-bar">
+        <div id="logo">
+            <a href="#">
+                <h4>
+                    <span>
+                        SHOP
+                    </span>
+                    LANE
+                </h4>
+            </a>
+        </div>
+        <!---------------------- menu items (for navigating to Home Page & sections in the Home Page --------------------------->
+            <ul class="menu" id="menu_">
+            <li> <a href="#">HOME</a></li>
+            <li><a href="#clothings">CLOTHINGS</a></li>
+            <li><a href="#accessories">ACCESSORIES</a></li>
+        </ul>
+        <div class="icons">
+            <i class="fa fa-search"></i>
+            <div id="cart">
+                <a href="checkout.html">
+                    <i class="fa fa-shopping-cart">
+                        <span id="cart-count"></span>
+                    </i>
+                </a>
+            </div>
+            <i class="fa fa-user-circle-o"></i>
+
+            
+            
+    </div>
+
+    <!-- ------------------short-cut tab for menu items for devices with smaller width ------------------ -->
+        <div id="menu-tab">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+
+         </div>
+            
+        </div>
+
+        
+
+    <!-- slider -->
+    <div id="slider">
+        <img src="img1.jpg" alt="img1" width="97%" height="100%">
+        <img src="img2.jpg" alt="img2" width="97%" height="100%">
+        <img src="img3.jpg" alt="img3" width="97%" height="100%">
+        <img src="img4.jpg" alt="img4" width="97%" height="100%">    
+    </div>
+
+    <!-- services offered  -->
+    <section id="services">
+         <!--icon div  -->
+        <div id="icon">
+            <!-- image container -->
+            <div id="img_cont">
+                <img src="icon1.jpg" alt="free_delivery">
+            </div>
+
+            <h4>Free Delivery</h4>
+
+        </div>
+
+        <div id="icon">
+            <!-- image container -->
+            <div id="img_cont">
+                <img src="icon2.jpg" alt="money-back guarantee">
+            </div>
+
+            <!-- Icon Text -->
+            <h4>Money Back Guarantee</h4>
+
+        </div>
+
+        <div id="icon">
+            <!-- image container -->
+            <div id="img_cont">
+                <img src="icon3.jpg" alt="always support">
+            </div>
+
+         <!-- Icon Text -->
+            <h4>Always Support</h4>
+
+        </div>
+
+        <div id="icon">
+            <!-- image container -->
+            <div id="img_cont">
+                <img src="icon4.jpg" alt="secure payment">
+            </div>
+
+            <!-- Icon Text -->
+
+            <h4>Secure Payment</h4>
+
+        </div>
+
+    </section>
+
+    <!-- clothings section -->
+
+    <section id="clothings">
+        <h2 id="heading">Clothings for Men and Women</h2>
+        <div id="clothings_list" class="list"></div>
+    </section>
+
+
+    <!-- accessories section -->
+     
+     <section id="accessories">
+        <h2 id="heading">Accessories for Men and Women</h2>
+        <div id="acc_list" class="list" ></div>
+    </section>
+
+
+    <footer>
+        <ul>
+        <li><h3>ONLINE STORE</h3></li>
+        <li><a href="#">MEN CLOTHING</a></li>
+        <li><a href="#">WOMEN CLOTHING</a></li>
+        <li><a href="#">MEN ACCESSORIES</a></li>
+        <li><a href="#">WOMEN ACCESSORIES</a></li>
+        </ul>
+
+        <ul>
+            <li><h3>HELPFUL LINKS</h3></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+
+        <ul>
+            <li><h3>PARTNERS</h3></li>
+            <li><a href="#">ZARA</a></li>
+            <li><a href="#">PANTALOONS</a></li>
+            <li><a href="#">LEVIS</a></li>
+            <li><a href="#">UCB</a></li>
+            <li><a href="#">+ MANY MORE</a></li>
+        </ul>
+
+        <ul>
+            <li><h3>ADDRESS</h3></li>
+            <li>BUILDING 101</li>
+            <li>CENTRAL AVENUE</li>
+            <li>LA - 902722</li>
+            <li>UNITED STATES</li>
+        </ul>
+
+    </footer>
+    <script src="shoplane.js"></script>
+    
+    
+</body>
+</html>
